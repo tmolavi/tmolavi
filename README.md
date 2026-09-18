@@ -76,7 +76,15 @@ Specialized engines, Laravel packages, and application backends powered by the A
 * **Empirical Observation Over Speculation**: We measure real completions returned by multi-provider AI routes. We never claim to possess or reverse-engineer private AI ranking algorithms.
 * **Separation of Priors & Observations**: Theoretical ranking factor weights (SAGE) are explicitly separated from recorded empirical model observations (GEO-Scope).
 * **Cryptographic Reproducibility**: Benchmark releases include complete raw completions, request metadata, and SHA-256 checksums verified by automated test suites.
-* **Closed-Loop Actionability**: Diagnostic findings (SAGE) feed directly into automated code remediations (SiteProbe) and empirical verification re-measurements (GEO-Scope).
+## 🤝 Participate & Collaborate
+
+We actively invite developers, researchers, and engineers to explore, reproduce, and build upon this open-source stack:
+
+* **🔬 Reproduce Empirical Experiments**: Clone [`geo-scope`](https://github.com/tmolavi/geo-scope) or [`sage-audit`](https://github.com/tmolavi/sage-audit) and verify SHA-256 benchmark datasets locally in $<60$ seconds.
+* **📖 Review Scientific Methodology**: Inspect our [Empirical Benchmark Methodology](https://github.com/tmolavi/geo-scope/blob/main/docs/benchmark-methodology.md) and [Evidence Taxonomy](https://github.com/tmolavi/sage-audit/blob/main/docs/methodology.md).
+* **💡 Suggest Improvements & Features**: Join active [GitHub Discussions](https://github.com/tmolavi/geo-scope/discussions) across General, Research, Ideas, Help, and Show & Tell.
+* **🛠️ Build Integrations & Agent Skills**: Integrate FastMCP tools into your AI agent workflows via [`mcp-geo-server`](https://github.com/tmolavi/mcp-geo-server).
+* **🚀 First Contribution**: Follow our [First Contribution Guide](https://github.com/tmolavi/geo-scope/blob/main/docs/FIRST_CONTRIBUTION.md) and [Research Collaboration Framework](https://github.com/tmolavi/geo-scope/blob/main/docs/RESEARCH_COLLABORATION.md).
 
 ---
 
