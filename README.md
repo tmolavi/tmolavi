@@ -50,6 +50,7 @@ Production-ready skills, workflow patterns, and token-optimized developer resour
 
 | Repository | Purpose & Technical Role | Target Agents | Coverage |
 | :--- | :--- | :---: | :---: |
+| [**`bale-bot-skills`**](https://github.com/tmolavi/bale-bot-skills) | Production skills, webhooks, state machines, and MiniApp patterns for Bale Messenger bots. | Claude Code · Cursor · Codex · Antigravity | 4 Skills · PHP / Python / TS / React |
 | [**`mcp-agent-skills-hub`**](https://github.com/tmolavi/mcp-agent-skills-hub) | Curated catalog of production agent skills and MCP configuration templates. | Claude Code · Cursor · Codex · Antigravity | 20+ Skills · Multi-runtime |
 | [**`n8n-agent-skills`**](https://github.com/tmolavi/n8n-agent-skills) | Production n8n workflow architecture, node routing, linting, and error-handling skills. | Claude Code · Codex · OpenCode | Enterprise n8n Patterns |
 | [**`lean-agent-skills`**](https://github.com/tmolavi/lean-agent-skills) | Token-efficient, low-context agent skills optimized for reduced prompt overhead and fast execution. | Cursor · Copilot · Antigravity | Context-Compressed Skills |
@@ -98,7 +99,7 @@ We actively invite developers, researchers, and engineers to explore, reproduce,
 من در تقاطع **بهینه‌سازی برای موتورهای هوش مصنوعی (GEO)**، **سئوی مبتنی بر هوش مصنوعی (AEO)**، **زیرساخت‌های ایجنت‌های نرم‌افزاری** و **سیستم‌های خودکار اصلاح کد** فعالیت می‌کنم. تمامی ابزارها به صورت منبع‌باز و همراه با داده‌های تجربی و آزمون‌های قابل بازتولید منتشر شده‌اند:
 
 - **پایپ‌لاین دیده‌پذیری هوش مصنوعی**: `geo-scope` (بنچ‌مارک تجربی)، `answerpath-geo` (کشف پرسش‌ها)، `sage-audit` (موتور ارزیابی ۳ لایه)، `siteprobe` (ربات اصلاح خودکار کد) و `mcp-geo-server`.
-- **زیرساخت ایجنت‌ها**: مهارت‌های تخصصی ایجنت برای Claude Code، Cursor، Codex و Antigravity.
+- **زیرساخت ایجنت‌ها**: مهارت‌های تخصصی ایجنت برای Claude Code، Cursor، Codex و Antigravity (شامل `bale-bot-skills`، `n8n-agent-skills` و `mcp-agent-skills-hub`).
 - **یادداشت‌ها و مقالات پژوهشی**: در [Molavi.pro فارسی](https://molavi.pro/fa) در دسترس است.
 
 </details>
