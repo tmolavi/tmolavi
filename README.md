@@ -3,7 +3,7 @@
 # Taghi Molavi (تقی مولوی)
 
 ### AI Systems Architect · GEO & AI Visibility Researcher
-**Builder of empirical AI measurement frameworks, agent operating systems, and autonomous remediation infrastructure.**
+**Builder of measurement, agent and media infrastructure.**
 
 [![Website](https://img.shields.io/badge/Molavi.pro-0b1220?style=for-the-badge&logo=googlechrome&logoColor=white)](https://molavi.pro)
 [![Research](https://img.shields.io/badge/Research%20Initiatives-de8814?style=for-the-badge&logo=readthedocs&logoColor=white)](https://molavi.pro/research)
@@ -17,9 +17,9 @@
 
 ---
 
-## 🏛️ Selected Flagship Projects
+## 🏛️ Selected Projects
 
-I architect and maintain five core open-source engineering initiatives spanning empirical AI measurement, static audit intelligence, autonomous site remediation, agent infrastructure, and developer skill distribution.
+A curated selection of core open-source engineering initiatives spanning empirical AI measurement, static audit intelligence, autonomous site remediation, agent infrastructure, and developer skill distribution.
 
 ```text
 Discovery & Measurement          Audit & Diagnostics           Remediation & Infrastructure
@@ -40,28 +40,28 @@ Discovery & Measurement          Audit & Diagnostics           Remediation & Inf
 
 ### 1. [GEO-Scope](https://github.com/tmolavi/geo-scope)
 **Empirical AI Answer Visibility Measurement Framework**
-- **Purpose**: Observes, records, and quantifies entity mentions, recommendations, citations, and textual attributions across generative AI answer engines (Perplexity, Gemini Grounding) and parametric LLMs (GPT-4o, Claude).
+- **Role**: Observes, records, and quantifies entity mentions, recommendations, citations, and textual attributions across generative AI answer engines (Perplexity, Gemini Grounding) and parametric LLMs (GPT-4o, Claude).
 - **Core Technology**: Python · Unicode Multi-Lingual Normalizer · Zero-Silent Fallback · Deterministic Replay · SHA-256 Verified Releases.
-- **Evidence Artifact**: Verified across 45,000+ live observations in the *Global AI Answers Benchmark 2026.2*.
+- **Evidence Artifact**: Evaluated across 45,000+ live observations in the *Global AI Answers Benchmark 2026.2*.
 
 ### 2. [SAGE Audit](https://github.com/tmolavi/sage-audit)
 **SEO / AEO / GEO Audit Intelligence Engine**
-- **Purpose**: Static diagnostic engine evaluating website crawlability, semantic extractability, JSON-LD Schema entity graphs, and citation survival proxies to determine why sites fail to be cited by AI engines.
+- **Role**: Static diagnostic engine evaluating website crawlability, semantic extractability, JSON-LD Schema entity graphs, and citation survival proxies to understand and diagnose why sites fail to be cited by AI engines.
 - **Core Technology**: Python · AST HTML Parser · 4-Layer Diagnostic Scoring · CLI & FastMCP Server.
 
 ### 3. [SiteProbe](https://github.com/tmolavi/siteprobe)
 **Autonomous Website Crawling, Diagnostics & Code Remediation Platform**
-- **Purpose**: Crawls web applications, analyzes AI bot access policies (`/llms.txt`, `robots.txt`), and generates safe, automated AST code and configuration patches with atomic rollback safeguards.
+- **Role**: Crawls web applications, analyzes AI bot access policies (`/llms.txt`, `robots.txt`), and executes automated AST code and configuration patches with atomic rollback safeguards.
 - **Core Technology**: Go · Python · Playwright Automation · MCP Remediation Tools.
 
-### 4. [Hamzad](https://github.com/tmolavi/hamzad-ai-gateway-resources)
+### 4. [Hamzad AI Gateway Resources](https://github.com/tmolavi/hamzad-ai-gateway-resources)
 **Private AI Agent Infrastructure & Operating System (Architecture Case Study)**
-- **Purpose**: High-reliability enterprise AI gateway and agent execution runtime providing dynamic latency-based fallback routing, token optimization, and governance.
+- **Role**: High-reliability enterprise AI gateway and agent execution runtime providing dynamic latency-based fallback routing, token optimization, and governance.
 - **Scope**: Open architectural specifications, routing policies, and design patterns.
 
-### 5. [Agent Skills Hub](https://github.com/tmolavi/mcp-agent-skills-hub)
+### 5. [MCP Agent Skills Hub](https://github.com/tmolavi/mcp-agent-skills-hub)
 **Distribution Layer for Reusable AI Agent Skills & MCP Tools**
-- **Purpose**: Standardized, production-tested skill catalog for AI coding agents (Claude Code, Cursor, OpenAI Codex, Antigravity).
+- **Role**: Standardized, production-tested skill catalog for AI coding agents (Claude Code, Cursor, OpenAI Codex, Antigravity).
 - **Scope**: Unified skill schemas, MCP configuration templates, and workflow patterns.
 
 ---
@@ -75,12 +75,18 @@ Discovery & Measurement          Audit & Diagnostics           Remediation & Inf
 
 ---
 
-## 🌐 Research & Personal Entity
+## 🤝 Enterprise & Research Collaboration
 
-- **Personal Homepage**: [molavi.pro](https://molavi.pro)
+Open for research initiatives, technical discussions, and architecture advisory in:
+
+* **Empirical AI Visibility Measurement**: Benchmark protocol design, multi-provider observation pipelines, and citation analysis.
+* **GEO & AEO Research**: Semantic extractability, JSON-LD entity graph structuring, and AI crawler accessibility.
+* **AI Systems Architecture**: Enterprise AI gateways, dynamic model routing, and autonomous agent tooling.
+
+**Contact**:
+- **Primary Website**: [molavi.pro](https://molavi.pro)
 - **Research Initiatives**: [molavi.pro/research](https://molavi.pro/research)
-- **Ecosystem Architecture**: [ECOSYSTEM_ARCHITECTURE.md](https://github.com/tmolavi/geo-scope/blob/main/docs/ECOSYSTEM_ARCHITECTURE.md)
-- **Email Contact**: `taqimolavi@gmail.com`
+- **Direct Email**: `taqimolavi@gmail.com`
 
 ---
 
