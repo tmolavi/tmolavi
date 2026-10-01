@@ -72,6 +72,16 @@ Specialized engines, Laravel packages, and application backends powered by the A
 
 ---
 
+### 4️⃣ Enterprise AI & Industrial Intelligence Stack (هوش مصنوعی سازمانی و اتصال ERP)
+
+Governed, auditable, and local-first integration platforms connecting enterprise databases, ERPs, and industrial systems to AI Executive Intelligence without numeric hallucination or raw database exposure.
+
+| Repository | Purpose & Technical Role | Tech Stack | Evidence & Status |
+| :--- | :--- | :---: | :---: |
+| [**`iranian-enterprise-ai-bridge`**](https://github.com/tmolavi/iranian-enterprise-ai-bridge) | Open-source enterprise platform connecting Iranian ERP/CRM/BPMS (Rahkaran, Chargoon, Shomaran, Sepidar, MSSQL) to AI Executive Intelligence with deterministic metric calculations, subledger-to-GL reconciliation, and local on-prem LLM orchestration. | TypeScript · Node.js · Docker | 13 tests · [100-Question CEO Benchmark Catalog](https://github.com/tmolavi/iranian-enterprise-ai-bridge/blob/main/docs/fa/CEO-QUESTIONS.md) |
+
+---
+
 ## 🔬 Epistemic Principles & Research Stance
 
 * **Empirical Observation Over Speculation**: We measure real completions returned by multi-provider AI routes. We never claim to possess or reverse-engineer private AI ranking algorithms.
@@ -99,6 +109,7 @@ We actively invite developers, researchers, and engineers to explore, reproduce,
 من در تقاطع **بهینه‌سازی برای موتورهای هوش مصنوعی (GEO)**، **سئوی مبتنی بر هوش مصنوعی (AEO)**، **زیرساخت‌های ایجنت‌های نرم‌افزاری** و **سیستم‌های خودکار اصلاح کد** فعالیت می‌کنم. تمامی ابزارها به صورت منبع‌باز و همراه با داده‌های تجربی و آزمون‌های قابل بازتولید منتشر شده‌اند:
 
 - **پایپ‌لاین دیده‌پذیری هوش مصنوعی**: `geo-scope` (بنچ‌مارک تجربی)، `answerpath-geo` (کشف پرسش‌ها)، `sage-audit` (موتور ارزیابی ۳ لایه)، `siteprobe` (ربات اصلاح خودکار کد) و `mcp-geo-server`.
+- **هوش مصنوعی سازمانی و اتصال ERP**: بستر متن‌باز `iranian-enterprise-ai-bridge` جهت اتصال امن و دترمینستیک نرم‌افزارهای سازمانی و کارخانجات به هوش مصنوعی مدیران ارشد با حفظ کامل حریم داده‌ها.
 - **زیرساخت ایجنت‌ها**: مهارت‌های تخصصی ایجنت برای Claude Code، Cursor، Codex و Antigravity (شامل `bale-bot-skills`، `n8n-agent-skills` و `mcp-agent-skills-hub`).
 - **یادداشت‌ها و مقالات پژوهشی**: در [Molavi.pro فارسی](https://molavi.pro/fa) در دسترس است.
 
