@@ -50,6 +50,7 @@ Production-ready skills, workflow patterns, and token-optimized developer resour
 
 | Repository | Purpose & Technical Role | Target Agents | Coverage |
 | :--- | :--- | :---: | :---: |
+| [**`scholar-provenance`**](https://github.com/tmolavi/scholar-provenance) | Portable AI Agent Skill transforming repositories, datasets, and benchmarks into traceable, peer-review-ready academic papers with zero citation fabrication. | Claude Code · Antigravity · Hermes · Codex · MCP | 16-Stage Pipeline · 12 Gates · v0.1.0 |
 | [**`bale-bot-skills`**](https://github.com/tmolavi/bale-bot-skills) | Production skills, webhooks, state machines, and MiniApp patterns for Bale Messenger bots. | Claude Code · Cursor · Codex · Antigravity | 4 Skills · PHP / Python / TS / React |
 | [**`mcp-agent-skills-hub`**](https://github.com/tmolavi/mcp-agent-skills-hub) | Curated catalog of production agent skills and MCP configuration templates. | Claude Code · Cursor · Codex · Antigravity | 20+ Skills · Multi-runtime |
 | [**`n8n-agent-skills`**](https://github.com/tmolavi/n8n-agent-skills) | Production n8n workflow architecture, node routing, linting, and error-handling skills. | Claude Code · Codex · OpenCode | Enterprise n8n Patterns |
@@ -110,7 +111,7 @@ We actively invite developers, researchers, and engineers to explore, reproduce,
 
 - **پایپ‌لاین دیده‌پذیری هوش مصنوعی**: `geo-scope` (بنچ‌مارک تجربی)، `answerpath-geo` (کشف پرسش‌ها)، `sage-audit` (موتور ارزیابی ۳ لایه)، `siteprobe` (ربات اصلاح خودکار کد) و `mcp-geo-server`.
 - **هوش مصنوعی سازمانی و اتصال ERP**: بستر متن‌باز `iranian-enterprise-ai-bridge` جهت اتصال امن و دترمینستیک نرم‌افزارهای سازمانی و کارخانجات به هوش مصنوعی مدیران ارشد با حفظ کامل حریم داده‌ها.
-- **زیرساخت ایجنت‌ها**: مهارت‌های تخصصی ایجنت برای Claude Code، Cursor، Codex و Antigravity (شامل `bale-bot-skills`، `n8n-agent-skills` و `mcp-agent-skills-hub`).
+- **زیرساخت ایجنت‌ها**: مهارت‌های تخصصی ایجنت برای Claude Code، Cursor، Codex و Antigravity (شامل `scholar-provenance` جهت تبدیل پژوهش و کد به مقالات علمی معتبر، `bale-bot-skills`، `n8n-agent-skills` و `mcp-agent-skills-hub`).
 - **یادداشت‌ها و مقالات پژوهشی**: در [Molavi.pro فارسی](https://molavi.pro/fa) در دسترس است.
 
 </details>
@@ -123,7 +124,7 @@ We actively invite developers, researchers, and engineers to explore, reproduce,
 Üretken Arama Motoru Optimizasyonu (GEO), Cevap Motoru Optimizasyonu (AEO), yapay zekâ aracı altyapıları ve otomatik kod düzeltme sistemleri üzerine açık kaynaklı araçlar ve ampirik benchmarklar geliştiriyorum:
 
 - **Yapay Zekâ Görünürlük Yığını**: `geo-scope`, `answerpath-geo`, `sage-audit`, `siteprobe`, `mcp-geo-server`.
-- **Ajan Mühendisliği**: Cursor, Claude Code ve Codex için üretim odaklı ajan becerileri.
+- **Ajan Mühendisliği**: Cursor, Claude Code, Codex ve Antigravity için üretim odaklı ajan becerileri (`scholar-provenance` bilimsel makale üretim becerisi dahil).
 - **Araştırmalar**: [Molavi.pro Türkçe](https://molavi.pro/tr).
 
 </details>
@@ -136,6 +137,7 @@ We actively invite developers, researchers, and engineers to explore, reproduce,
 Süni intellekt axtarış sistemlərində görünürlük (GEO/AEO), avtonom agent infrastrukturları və kod təmiri sistemləri üzrə açıq mənbəli alətlər hazırlayıram:
 
 - **Süni İntellekt Görünürlük Şəbəkəsi**: `geo-scope`, `answerpath-geo`, `sage-audit`, `siteprobe`.
+- **Agent Mühəndisliyi**: `scholar-provenance` (elmi məqalə və tədqiqat bacarığı), `bale-bot-skills`, `mcp-agent-skills-hub`.
 - **Tədqiqat və Məqalələr**: [Molavi.pro Azərbaycan](https://molavi.pro/az).
 
 </details>
@@ -148,6 +150,7 @@ Süni intellekt axtarış sistemlərində görünürlük (GEO/AEO), avtonom agen
 أعمل على تطوير أنظمة مفتوحة المصدر واختبارات تجريبية قابلة لإعادة الإنتاج حول تحسين محركات الذكاء الاصطناعي (GEO)، وبنية الوكلاء الأذكياء (Agent Infrastructure)، والأدوات البرمجية الذكية:
 
 - **حزمة ظهور الذكاء الاصطناعي**: `geo-scope` و `answerpath-geo` و `sage-audit` و `siteprobe` و `mcp-geo-server`.
+- **بنية الوكلاء الأذكياء**: مهارات متقدمة للوكلاء الذاتيين (بما في ذلك `scholar-provenance` لإعداد الأوراق والبحوث الأكاديمية الموثقة).
 - **الأبحاث والملاحظات**: متوفرة على [Molavi.pro العربية](https://molavi.pro/ar).
 
 </details>
