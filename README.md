@@ -50,7 +50,7 @@ Production-ready skills, workflow patterns, and token-optimized developer resour
 
 | Repository | Purpose & Technical Role | Target Agents | Coverage |
 | :--- | :--- | :---: | :---: |
-| [**`scholar-provenance`**](https://github.com/tmolavi/scholar-provenance) | Portable AI Agent Skill transforming repositories, datasets, and benchmarks into traceable, peer-review-ready academic papers with zero citation fabrication. | Claude Code · Antigravity · Hermes · Codex · MCP | 16-Stage Pipeline · 12 Gates · v0.2.0 |
+| [**`scholar-provenance`**](https://github.com/tmolavi/scholar-provenance) | Portable AI Agent Skill transforming repositories, datasets, and benchmarks into traceable, peer-review-ready academic papers with mandatory interactive intake and zero citation fabrication. | Claude Code · Antigravity · Hermes · Codex · MCP | 17-Stage Pipeline · 13 Gates · v0.3.0 |
 | [**`bale-bot-skills`**](https://github.com/tmolavi/bale-bot-skills) | Production skills, webhooks, state machines, and MiniApp patterns for Bale Messenger bots. | Claude Code · Cursor · Codex · Antigravity | 4 Skills · PHP / Python / TS / React |
 | [**`mcp-agent-skills-hub`**](https://github.com/tmolavi/mcp-agent-skills-hub) | Curated catalog of production agent skills and MCP configuration templates. | Claude Code · Cursor · Codex · Antigravity | 20+ Skills · Multi-runtime |
 | [**`n8n-agent-skills`**](https://github.com/tmolavi/n8n-agent-skills) | Production n8n workflow architecture, node routing, linting, and error-handling skills. | Claude Code · Codex · OpenCode | Enterprise n8n Patterns |
