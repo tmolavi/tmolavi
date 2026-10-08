@@ -10,6 +10,7 @@
 [![Architecture](https://img.shields.io/badge/Ecosystem-Architecture%20Map-blueviolet?style=for-the-badge&logo=diagram&logoColor=white)](https://github.com/tmolavi/geo-scope/blob/main/docs/ECOSYSTEM_ARCHITECTURE.md)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/taqimolavi)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/taqimolavi)
+[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0009-6253-5354)
 
 *یاد بگیر، یاد بده و اثری ماندگار خلق کن — Learn. Share. Create a lasting impact.*
 
@@ -86,6 +87,7 @@ Open for research initiatives, technical discussions, and architecture advisory 
 **Contact**:
 - **Primary Website**: [molavi.pro](https://molavi.pro)
 - **Research Initiatives**: [molavi.pro/research](https://molavi.pro/research)
+- **ORCID**: [0009-0009-6253-5354](https://orcid.org/0009-0009-6253-5354)
 - **Direct Email**: `taqimolavi@gmail.com`
 
 ---
