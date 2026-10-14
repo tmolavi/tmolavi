@@ -23,47 +23,70 @@
 A curated selection of core open-source engineering initiatives spanning empirical AI measurement, static audit intelligence, autonomous site remediation, agent infrastructure, and developer skill distribution.
 
 ```text
-Discovery & Measurement          Audit & Diagnostics           Remediation & Infrastructure
-───────────────────────          ───────────────────           ────────────────────────────
-     [GEO-Scope]           ──▶      [SAGE Audit]         ──▶          [SiteProbe]
-(Empirical AI Visibility)        (SEO/AEO/GEO Audits)          (Autonomous Crawl & Patch)
-                                                                            │
-                                                                            ▼
-                                                                     [Hamzad Gateway]
-                                                               (Enterprise Agent OS Case Study)
-                                                                            │
-                                                                            ▼
-                                                                  [Agent Skills Hub]
-                                                             (Multi-Agent Skill Distribution)
+Query & Intent Discovery       Empirical AI Measurement       Audit & Diagnostics        Remediation
+────────────────────────       ────────────────────────       ───────────────────        ───────────
+   [AnswerPath-GEO]      ──▶         [GEO-Scope]        ──▶       [SAGE Audit]     ──▶   [SiteProbe]
+(Multimodal User Queries)     (Empirical AI Visibility)       (SEO/AEO/GEO Audits)    (Crawl & Patch)
+                                                                                           │
+                                                                                           ▼
+                                                                                    [Hamzad Gateway]
+                                                                             (Enterprise Agent OS Case Study)
+                                                                                           │
+                                                                                           ▼
+                                                                                  [Agent Skills Hub]
+                                                                             (Multi-Agent Skill Distribution)
 ```
 
 ---
 
-### 1. [GEO-Scope](https://github.com/tmolavi/geo-scope)
+### 1. [AnswerPath-GEO](https://github.com/tmolavi/answerpath-geo)
+**Multimodal AI Query Discovery & Intent Stratification Engine**
+- **Role**: Discovers how real humans ask AI models questions across conversational text, voice dictations, and multimodal image uploads. Mines authentic buyer questions, categorizes intent strata, and generates structured benchmark prompt banks.
+- **Core Technology**: Python · Multi-Modality Synthesizer (Text / Voice / Image) · Web Domain Entity Extraction · PyPI Package · Zero-External Dependency.
+- **Evidence Artifact**: Powers the Question Discovery & Intent Stratification layer in the official [GEO-Scope Benchmark releases](https://github.com/tmolavi/geo-scope).
+
+### 2. [GEO-Scope](https://github.com/tmolavi/geo-scope)
 **Empirical AI Answer Visibility Measurement Framework**
 - **Role**: Observes, records, and quantifies entity mentions, recommendations, citations, and textual attributions across generative AI answer engines (Perplexity, Gemini Grounding) and parametric LLMs (GPT-4o, Claude).
 - **Core Technology**: Python · Unicode Multi-Lingual Normalizer · Zero-Silent Fallback · Deterministic Replay · SHA-256 Verified Releases.
 - **Evidence Artifact**: Evaluated across 45,000+ live observations in the *Global AI Answers Benchmark 2026.2*.
 
-### 2. [SAGE Audit](https://github.com/tmolavi/sage-audit)
+### 3. [SAGE Audit](https://github.com/tmolavi/sage-audit)
 **SEO / AEO / GEO Audit Intelligence Engine**
 - **Role**: Static diagnostic engine evaluating website crawlability, semantic extractability, JSON-LD Schema entity graphs, and citation survival proxies to understand and diagnose why sites fail to be cited by AI engines.
 - **Core Technology**: Python · AST HTML Parser · 4-Layer Diagnostic Scoring · CLI & FastMCP Server.
 
-### 3. [SiteProbe](https://github.com/tmolavi/siteprobe)
+### 4. [SiteProbe](https://github.com/tmolavi/siteprobe)
 **Autonomous Website Crawling, Diagnostics & Code Remediation Platform**
 - **Role**: Crawls web applications, analyzes AI bot access policies (`/llms.txt`, `robots.txt`), and executes automated AST code and configuration patches with atomic rollback safeguards.
 - **Core Technology**: Go · Python · Playwright Automation · MCP Remediation Tools.
 
-### 4. [Hamzad AI Gateway Resources](https://github.com/tmolavi/hamzad-ai-gateway-resources)
+### 5. [Hamzad AI Gateway Resources](https://github.com/tmolavi/hamzad-ai-gateway-resources)
 **Private AI Agent Infrastructure & Operating System (Architecture Case Study)**
 - **Role**: High-reliability enterprise AI gateway and agent execution runtime providing dynamic latency-based fallback routing, token optimization, and governance.
 - **Scope**: Open architectural specifications, routing policies, and design patterns.
 
-### 5. [MCP Agent Skills Hub](https://github.com/tmolavi/mcp-agent-skills-hub)
+### 6. [MCP Agent Skills Hub](https://github.com/tmolavi/mcp-agent-skills-hub)
 **Distribution Layer for Reusable AI Agent Skills & MCP Tools**
 - **Role**: Standardized, production-tested skill catalog for AI coding agents (Claude Code, Cursor, OpenAI Codex, Antigravity).
 - **Scope**: Unified skill schemas, MCP configuration templates, and workflow patterns.
+
+---
+
+### 1️⃣ AI Visibility & Empirical Measurement Stack
+
+Empirical measurement, query discovery, and technical diagnostics for Generative Engine Optimization (GEO) and Answer Engine Optimization (AEO).
+
+| Repository | Purpose & Technical Role | Target Engines / Tech | Coverage / Status |
+| :--- | :--- | :---: | :---: |
+| [**`geo-scope`**](https://github.com/tmolavi/geo-scope) | Empirical AI Answer Visibility Measurement Framework observing brand citations, entity mentions, and recommendation share. | Perplexity · Gemini · GPT-4o · Claude | 45,000+ Observations · Global Benchmark |
+| [**`answerpath-geo`**](https://github.com/tmolavi/answerpath-geo) | Multimodal query discovery and intent stratification engine modeling real-world human AI interactions (voice, text, image). | Python · CLI · PyPI | v0.2.0 · GEO-Scope Aligned |
+| [**`sage-audit`**](https://github.com/tmolavi/sage-audit) | Static SEO/AEO/GEO diagnostic engine evaluating extractability, JSON-LD Schema graphs, and citation survival proxies. | Python · AST HTML Parser · FastMCP | 4-Layer Diagnostic Scoring |
+| [**`siteprobe`**](https://github.com/tmolavi/siteprobe) | Autonomous website crawler and code remediation platform executing verified AST and config patches. | Go · Python · Playwright Automation | MCP Remediation Tools |
+| [**`mcp-geo-server`**](https://github.com/tmolavi/mcp-geo-server) | Model Context Protocol server exposing GEO diagnostics, audit findings, and AI answer observation to AI agents. | TypeScript / Python · MCP Standard | Staging / Operational |
+
+---
+
 ### 2️⃣ Agent Engineering & Skills Stack
 
 Production-ready skills, workflow patterns, and token-optimized developer resources for autonomous coding agents.
@@ -154,7 +177,7 @@ Open for research initiatives, technical discussions, and architecture advisory 
 
 Süni intellekt axtarış sistemlərində görünürlük (GEO/AEO), avtonom agent infrastrukturları və kod təmiri sistemləri üzrə açıq mənbəli alətlər hazırlayıram:
 
-- **Süni İntellekt Görünürlük Şəbəkəsi**: `geo-scope`, `answerpath-geo`, `sage-audit`, `siteprobe`.
+- **Süni İntellekt Görünürlük Şəbəkəsi**: `geo-scope`, `answerpath-geo`, `sage-audit`, `siteprobe`, `mcp-geo-server`.
 - **Agent Mühəndisliyi**: `scholar-provenance` (elmi məqalə və tədqiqat bacarığı), `bale-bot-skills`, `mcp-agent-skills-hub`.
 - **Tədqiqat və Məqalələr**: [Molavi.pro Azərbaycan](https://molavi.pro/az).
 
