@@ -56,17 +56,23 @@ Query & Intent Discovery       Empirical AI Measurement       Audit & Diagnostic
 - **Role**: Static diagnostic engine evaluating website crawlability, semantic extractability, JSON-LD Schema entity graphs, and citation survival proxies to understand and diagnose why sites fail to be cited by AI engines.
 - **Core Technology**: Python · AST HTML Parser · 4-Layer Diagnostic Scoring · CLI & FastMCP Server.
 
-### 4. [SiteProbe](https://github.com/tmolavi/siteprobe)
+### 4. [News Traffic Engine](https://github.com/tmolavi/news-traffic-engine)
+**Autonomous AI Agent Framework for Newsroom Traffic, Google News Indexing & GEO**
+- **Role**: Production-grade autonomous system for digital newsrooms and media publishers. Drives 3x–5x traffic growth through sub-15-minute search indexing (Google Indexing API & IndexNow), GEO passage citability scoring for ChatGPT Search and Perplexity, Google Discover technical compliance, and automated multi-channel syndication (n8n, Telegram, Eitaa, Bale, X, Web Push).
+- **Core Technology**: Python · Google Indexing API · IndexNow · JSON-LD NewsArticle & LiveBlog Graphs · n8n Workflows · VAPID Web Push.
+- **Strategic Partner**: Co-developed with [Inten Digital Marketing Agency](https://inten.asia/en).
+
+### 5. [SiteProbe](https://github.com/tmolavi/siteprobe)
 **Autonomous Website Crawling, Diagnostics & Code Remediation Platform**
 - **Role**: Crawls web applications, analyzes AI bot access policies (`/llms.txt`, `robots.txt`), and executes automated AST code and configuration patches with atomic rollback safeguards.
 - **Core Technology**: Go · Python · Playwright Automation · MCP Remediation Tools.
 
-### 5. [Hamzad AI Gateway Resources](https://github.com/tmolavi/hamzad-ai-gateway-resources)
+### 6. [Hamzad AI Gateway Resources](https://github.com/tmolavi/hamzad-ai-gateway-resources)
 **Private AI Agent Infrastructure & Operating System (Architecture Case Study)**
 - **Role**: High-reliability enterprise AI gateway and agent execution runtime providing dynamic latency-based fallback routing, token optimization, and governance.
 - **Scope**: Open architectural specifications, routing policies, and design patterns.
 
-### 6. [MCP Agent Skills Hub](https://github.com/tmolavi/mcp-agent-skills-hub)
+### 7. [MCP Agent Skills Hub](https://github.com/tmolavi/mcp-agent-skills-hub)
 **Distribution Layer for Reusable AI Agent Skills & MCP Tools**
 - **Role**: Standardized, production-tested skill catalog for AI coding agents (Claude Code, Cursor, OpenAI Codex, Antigravity).
 - **Scope**: Unified skill schemas, MCP configuration templates, and workflow patterns.
@@ -79,6 +85,7 @@ Empirical measurement, query discovery, and technical diagnostics for Generative
 
 | Repository | Purpose & Technical Role | Target Engines / Tech | Coverage / Status |
 | :--- | :--- | :---: | :---: |
+| [**`news-traffic-engine`**](https://github.com/tmolavi/news-traffic-engine) | Autonomous AI Agent Framework for newsroom traffic, instant Google News indexing (<15m), GEO passage citability, and Google Discover growth. Co-developed with Inten. | Google News · Discover · Perplexity · ChatGPT | v1.0.0 · 5 Languages |
 | [**`geo-scope`**](https://github.com/tmolavi/geo-scope) | Empirical AI Answer Visibility Measurement Framework observing brand citations, entity mentions, and recommendation share. | Perplexity · Gemini · GPT-4o · Claude | 45,000+ Observations · Global Benchmark |
 | [**`answerpath-geo`**](https://github.com/tmolavi/answerpath-geo) | Multimodal query discovery and intent stratification engine modeling real-world human AI interactions (voice, text, image). | Python · CLI · PyPI | v0.2.0 · GEO-Scope Aligned |
 | [**`sage-audit`**](https://github.com/tmolavi/sage-audit) | Static SEO/AEO/GEO diagnostic engine evaluating extractability, JSON-LD Schema graphs, and citation survival proxies. | Python · AST HTML Parser · FastMCP | 4-Layer Diagnostic Scoring |
@@ -94,6 +101,7 @@ Production-ready skills, workflow patterns, and token-optimized developer resour
 | Repository | Purpose & Technical Role | Target Agents | Coverage |
 | :--- | :--- | :---: | :---: |
 | [**`scholar-provenance`**](https://github.com/tmolavi/scholar-provenance) | Portable AI Agent Skill transforming repositories, datasets, and benchmarks into traceable, peer-review-ready academic papers with automated academic distribution kits and zero citation fabrication. | Claude Code · Antigravity · Hermes · Codex · MCP | 17-Stage Pipeline · 13 Gates · v0.4.0 |
+| [**`hermes-meeting-intelligence`**](https://github.com/tmolavi/hermes-meeting-intelligence) | Open-source meeting intelligence skills for Hermes Agent: speaker-aware transcriptions, cross-meeting persistent memory, and real-time AI workflows. | Hermes Agent · Python · MCP | Open-Source Skills |
 | [**`bale-bot-skills`**](https://github.com/tmolavi/bale-bot-skills) | Production skills, webhooks, state machines, and MiniApp patterns for Bale Messenger bots. | Claude Code · Cursor · Codex · Antigravity | 4 Skills · PHP / Python / TS / React |
 | [**`mcp-agent-skills-hub`**](https://github.com/tmolavi/mcp-agent-skills-hub) | Curated catalog of production agent skills and MCP configuration templates. | Claude Code · Cursor · Codex · Antigravity | 20+ Skills · Multi-runtime |
 | [**`n8n-agent-skills`**](https://github.com/tmolavi/n8n-agent-skills) | Production n8n workflow architecture, node routing, linting, and error-handling skills. | Claude Code · Codex · OpenCode | Enterprise n8n Patterns |
@@ -109,6 +117,7 @@ Specialized engines, Laravel packages, and application backends powered by the A
 
 | Repository | Purpose & Technical Role | Tech Stack | Status |
 | :--- | :--- | :---: | :---: |
+| [**`hamzad-avatar-studio`**](https://github.com/tmolavi/hamzad-avatar-studio) | Autonomous AI Digital Twin, Trilingual Voice Cloning & Video Face-Swap Engine Tailored for Google Antigravity. | Python · LivePortrait · Edge-TTS | Multilingual Studio |
 | [**`laravel-ai-summary`**](https://github.com/tmolavi/laravel-ai-summary) | Provider-agnostic, multi-fallback AI summarization engine for Laravel (OpenAI, Gemini, Claude, Groq, Mistral). | PHP 8.2+ · Laravel 10/11 | 8 tests · CI Verified |
 | [**`geo-aeo-news-engine`**](https://github.com/tmolavi/geo-aeo-news-engine) | Autonomous news rewriting, digital PR syndication, and entity-optimized press release engine. | Python · DOCX · JSON-LD | Operational Tool |
 | [**`ivna-app`**](https://github.com/tmolavi/ivna-app) | Intelligent news aggregation and multilingual publishing mobile application. | Flutter / Dart · Clean Architecture | Application Client |
@@ -150,7 +159,7 @@ Open for research initiatives, technical discussions, and architecture advisory 
 - **Direct Email**: `taqimolavi@gmail.com`
 من در تقاطع **بهینه‌سازی برای موتورهای هوش مصنوعی (GEO)**، **سئوی مبتنی بر هوش مصنوعی (AEO)**، **زیرساخت‌های ایجنت‌های نرم‌افزاری** و **سیستم‌های خودکار اصلاح کد** فعالیت می‌کنم. تمامی ابزارها به صورت منبع‌باز و همراه با داده‌های تجربی و آزمون‌های قابل بازتولید منتشر شده‌اند:
 
-- **پایپ‌لاین دیده‌پذیری هوش مصنوعی**: `geo-scope` (بنچ‌مارک تجربی)، `answerpath-geo` (کشف پرسش‌ها)، `sage-audit` (موتور ارزیابی ۳ لایه)، `siteprobe` (ربات اصلاح خودکار کد) و `mcp-geo-server`.
+- **پایپ‌لاین دیده‌پذیری هوش مصنوعی و ترافیک خبری**: `news-traffic-engine` (فریم‌ورک خودکار سئو و GEO خبرگزاری‌ها با همکاری آژانس دیجیتال مارکتینگ اینتن)، `geo-scope` (بنچ‌مارک تجربی)، `answerpath-geo` (کشف پرسش‌ها)، `sage-audit` (موتور ارزیابی ۳ لایه)، `siteprobe` (ربات اصلاح خودکار کد) و `mcp-geo-server`.
 - **هوش مصنوعی سازمانی و اتصال ERP**: بستر متن‌باز `iranian-enterprise-ai-bridge` جهت اتصال امن و دترمینستیک نرم‌افزارهای سازمانی و کارخانجات به هوش مصنوعی مدیران ارشد با حفظ کامل حریم داده‌ها.
 - **زیرساخت ایجنت‌ها**: مهارت‌های تخصصی ایجنت برای Claude Code، Cursor، Codex و Antigravity (شامل `scholar-provenance` جهت تبدیل پژوهش و کد به مقالات علمی معتبر، `bale-bot-skills`، `n8n-agent-skills` و `mcp-agent-skills-hub`).
 - **یادداشت‌ها و مقالات پژوهشی**: در [Molavi.pro فارسی](https://molavi.pro/fa) در دسترس است.
