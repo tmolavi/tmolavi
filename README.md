@@ -72,7 +72,12 @@ Query & Intent Discovery       Empirical AI Measurement       Audit & Diagnostic
 - **Role**: High-reliability enterprise AI gateway and agent execution runtime providing dynamic latency-based fallback routing, token optimization, and governance.
 - **Scope**: Open architectural specifications, routing policies, and design patterns.
 
-### 7. [MCP Agent Skills Hub](https://github.com/tmolavi/mcp-agent-skills-hub)
+### 7. [Humanize-AI-Copywriter](https://github.com/tmolavi/humanize-ai-copywriter)
+**Universal Agent Skill & CLI for Zero-Entropy, Undetectable Human Copywriting & SEO/GEO Citations**
+- **Role**: Solves the synthetic AI-tone epidemic and low-conversion copy problem. Crafts zero-entropy ($H \to 0$) marketing and technical content with radical burstiness, achieves 100% bypass on AI detectors (Turnitin, GPTZero, Originality.ai), executes few-shot voice cloning from URLs, and enforces dual search indexing (Google SEO + Perplexity/ChatGPT GEO hooks).
+- **Core Technology**: Python · Pydantic V2 · Rich CLI · Open Agent Skills Spec · 5 Languages · MIT License.
+
+### 8. [MCP Agent Skills Hub](https://github.com/tmolavi/mcp-agent-skills-hub)
 **Distribution Layer for Reusable AI Agent Skills & MCP Tools**
 - **Role**: Standardized, production-tested skill catalog for AI coding agents (Claude Code, Cursor, OpenAI Codex, Antigravity).
 - **Scope**: Unified skill schemas, MCP configuration templates, and workflow patterns.
@@ -100,6 +105,7 @@ Production-ready skills, workflow patterns, and token-optimized developer resour
 
 | Repository | Purpose & Technical Role | Target Agents | Coverage |
 | :--- | :--- | :---: | :---: |
+| [**`humanize-ai-copywriter`**](https://github.com/tmolavi/humanize-ai-copywriter) | Universal Agent Skill & CLI for Zero-Entropy, undetectable human copywriting (100% bypass of GPTZero/Turnitin), high-conversion sales, few-shot voice cloning & dual SEO/GEO citations. | Antigravity · Claude Code · Cursor · Codex · n8n | v1.0.0 · 5 Languages |
 | [**`scholar-provenance`**](https://github.com/tmolavi/scholar-provenance) | Portable AI Agent Skill transforming repositories, datasets, and benchmarks into traceable, peer-review-ready academic papers with automated academic distribution kits and zero citation fabrication. | Claude Code · Antigravity · Hermes · Codex · MCP | 17-Stage Pipeline · 13 Gates · v0.4.0 |
 | [**`hermes-meeting-intelligence`**](https://github.com/tmolavi/hermes-meeting-intelligence) | Open-source meeting intelligence skills for Hermes Agent: speaker-aware transcriptions, cross-meeting persistent memory, and real-time AI workflows. | Hermes Agent · Python · MCP | Open-Source Skills |
 | [**`bale-bot-skills`**](https://github.com/tmolavi/bale-bot-skills) | Production skills, webhooks, state machines, and MiniApp patterns for Bale Messenger bots. | Claude Code · Cursor · Codex · Antigravity | 4 Skills · PHP / Python / TS / React |
