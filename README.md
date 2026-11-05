@@ -23,18 +23,22 @@
 A curated selection of core open-source engineering initiatives spanning empirical AI measurement, static audit intelligence, autonomous site remediation, agent infrastructure, and developer skill distribution.
 
 ```text
-Query & Intent Discovery       Empirical AI Measurement       Audit & Diagnostics        Remediation
-────────────────────────       ────────────────────────       ───────────────────        ───────────
-   [AnswerPath-GEO]      ──▶         [GEO-Scope]        ──▶       [SAGE Audit]     ──▶   [SiteProbe]
-(Multimodal User Queries)     (Empirical AI Visibility)       (SEO/AEO/GEO Audits)    (Crawl & Patch)
-                                                                                           │
-                                                                                           ▼
-                                                                                    [Hamzad Gateway]
-                                                                             (Enterprise Agent OS Case Study)
-                                                                                           │
-                                                                                           ▼
-                                                                                  [Agent Skills Hub]
-                                                                             (Multi-Agent Skill Distribution)
+Crawl & Web Intelligence       Query & Intent Discovery       Empirical AI Measurement       Audit & Diagnostics
+────────────────────────       ────────────────────────       ────────────────────────       ───────────────────
+  [MWIE Web Engine]      ──▶       [AnswerPath-GEO]      ──▶         [GEO-Scope]        ──▶       [SAGE Audit]
+(Crawling & SEO/GEO)          (Multimodal User Queries)     (Empirical AI Visibility)       (SEO/AEO/GEO Audits)
+                                                                                                   │
+                                                                                                   ▼
+                                                                                              [SiteProbe]
+                                                                                            (Crawl & Patch)
+                                                                                                   │
+                                                                                                   ▼
+                                                                                            [Hamzad Gateway]
+                                                                                     (Enterprise Agent OS Case Study)
+                                                                                                   │
+                                                                                                   ▼
+                                                                                          [Agent Skills Hub]
+                                                                                     (Multi-Agent Skill Distribution)
 ```
 
 ---
@@ -62,22 +66,28 @@ Query & Intent Discovery       Empirical AI Measurement       Audit & Diagnostic
 - **Core Technology**: Python · Google Indexing API · IndexNow · JSON-LD NewsArticle & LiveBlog Graphs · n8n Workflows · VAPID Web Push.
 - **Strategic Partner**: Co-developed with [Inten Digital Marketing Agency](https://inten.asia/en).
 
-### 5. [SiteProbe](https://github.com/tmolavi/siteprobe)
+### 5. [Molavi Web Intelligence Engine](https://github.com/tmolavi/molavi-web-intelligence)
+**One Engine. Complete Web Intelligence (Deterministic Crawling, Technical SEO & GEO Analyzer)**
+- **Role**: Open-source, self-hosted web intelligence platform unifying high-throughput async crawling, headless JavaScript rendering, deterministic Technical SEO scorecards, Schema.org entity graphs, and AI citation readiness without LLM token costs. Powers the free 5-language web analyzer on [Molavi.pro](https://molavi.pro/tools/web-intelligence).
+- **Core Technology**: Python 3.12+ · FastAPI · Playwright · MCP Native Server · Docker · Apache 2.0 · 5 Languages.
+- **Evidence Artifact**: 23/23 passing test suites, empirical ARM64 benchmarks, and live opt-in community telemetry feed.
+
+### 6. [SiteProbe](https://github.com/tmolavi/siteprobe)
 **Autonomous Website Crawling, Diagnostics & Code Remediation Platform**
 - **Role**: Crawls web applications, analyzes AI bot access policies (`/llms.txt`, `robots.txt`), and executes automated AST code and configuration patches with atomic rollback safeguards.
 - **Core Technology**: Go · Python · Playwright Automation · MCP Remediation Tools.
 
-### 6. [Hamzad AI Gateway Resources](https://github.com/tmolavi/hamzad-ai-gateway-resources)
+### 7. [Hamzad AI Gateway Resources](https://github.com/tmolavi/hamzad-ai-gateway-resources)
 **Private AI Agent Infrastructure & Operating System (Architecture Case Study)**
 - **Role**: High-reliability enterprise AI gateway and agent execution runtime providing dynamic latency-based fallback routing, token optimization, and governance.
 - **Scope**: Open architectural specifications, routing policies, and design patterns.
 
-### 7. [Humanize-AI-Copywriter](https://github.com/tmolavi/humanize-ai-copywriter)
+### 8. [Humanize-AI-Copywriter](https://github.com/tmolavi/humanize-ai-copywriter)
 **Universal Agent Skill & CLI for Zero-Entropy, Undetectable Human Copywriting & SEO/GEO Citations**
 - **Role**: Solves the synthetic AI-tone epidemic and low-conversion copy problem. Crafts zero-entropy ($H \to 0$) marketing and technical content with radical burstiness, achieves 100% bypass on AI detectors (Turnitin, GPTZero, Originality.ai), executes few-shot voice cloning from URLs, and enforces dual search indexing (Google SEO + Perplexity/ChatGPT GEO hooks).
 - **Core Technology**: Python · Pydantic V2 · Rich CLI · Open Agent Skills Spec · 5 Languages · MIT License.
 
-### 8. [MCP Agent Skills Hub](https://github.com/tmolavi/mcp-agent-skills-hub)
+### 9. [MCP Agent Skills Hub](https://github.com/tmolavi/mcp-agent-skills-hub)
 **Distribution Layer for Reusable AI Agent Skills & MCP Tools**
 - **Role**: Standardized, production-tested skill catalog for AI coding agents (Claude Code, Cursor, OpenAI Codex, Antigravity).
 - **Scope**: Unified skill schemas, MCP configuration templates, and workflow patterns.
@@ -90,6 +100,7 @@ Empirical measurement, query discovery, and technical diagnostics for Generative
 
 | Repository | Purpose & Technical Role | Target Engines / Tech | Coverage / Status |
 | :--- | :--- | :---: | :---: |
+| [**`molavi-web-intelligence`**](https://github.com/tmolavi/molavi-web-intelligence) | Unified web intelligence engine, high-speed crawling, deterministic Technical SEO, and GEO citation readiness (Zero-LLM Cost). Powers free [web analyzer](https://molavi.pro/tools/web-intelligence). | Python · Playwright · FastAPI · MCP | v0.1.0 · 5 Languages · Apache-2.0 |
 | [**`news-traffic-engine`**](https://github.com/tmolavi/news-traffic-engine) | Autonomous AI Agent Framework for newsroom traffic, instant Google News indexing (<15m), GEO passage citability, and Google Discover growth. Co-developed with Inten. | Google News · Discover · Perplexity · ChatGPT | v1.0.0 · 5 Languages |
 | [**`geo-scope`**](https://github.com/tmolavi/geo-scope) | Empirical AI Answer Visibility Measurement Framework observing brand citations, entity mentions, and recommendation share. | Perplexity · Gemini · GPT-4o · Claude | 45,000+ Observations · Global Benchmark |
 | [**`answerpath-geo`**](https://github.com/tmolavi/answerpath-geo) | Multimodal query discovery and intent stratification engine modeling real-world human AI interactions (voice, text, image). | Python · CLI · PyPI | v0.2.0 · GEO-Scope Aligned |
