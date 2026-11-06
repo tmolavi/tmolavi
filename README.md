@@ -6,6 +6,7 @@
 **Builder of measurement, agent and media infrastructure.**
 
 [![Website](https://img.shields.io/badge/Molavi.pro-0b1220?style=for-the-badge&logo=googlechrome&logoColor=white)](https://molavi.pro)
+[![TM Agentic OS](https://img.shields.io/badge/Flagship-TM%20AI%20Agent%20Toolkit-7928CA?style=for-the-badge&logo=probot&logoColor=white)](https://github.com/tmolavi/molavi-agentic-os)
 [![Research](https://img.shields.io/badge/Research%20Initiatives-de8814?style=for-the-badge&logo=readthedocs&logoColor=white)](https://molavi.pro/research)
 [![Architecture](https://img.shields.io/badge/Ecosystem-Architecture%20Map-blueviolet?style=for-the-badge&logo=diagram&logoColor=white)](https://github.com/tmolavi/geo-scope/blob/main/docs/ECOSYSTEM_ARCHITECTURE.md)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/taqimolavi)
@@ -42,6 +43,12 @@ Crawl & Web Intelligence       Query & Intent Discovery       Empirical AI Measu
 ```
 
 ---
+
+### 🌟 Flagship: [TM AI Agent Toolkit (Molavi Agentic OS)](https://github.com/tmolavi/molavi-agentic-os)
+**An Open Ecosystem of Agents, Skills, Teams, Workflows & Tools**
+- **Role**: Modular, model-agnostic, zero-dependency AI agent framework. Provides 12 specialist agents (100/100 Bot-Ready validation score), 15 standardized `SKILL.md` skills, 5 multi-agent team topologies, and 5 canonical workflows.
+- **Core Technology**: Pure Python 3.10+ · Thread-Safe `TaskQueue` & DAG Runner (Zero Redis/Celery dependency) · Permission-Slip HMAC Human Approval Gatekeeper (`L2_HUMAN_APPROVAL`) · Foreman Anti-Hallucination Artifact Verification Gate ("No Guessing") · Local Durable SQLite Memory · Free-First Model Router (Ollama Llama 3.2, Mistral, Groq, Gemini Free Tier) · Cross-Platform Adapters for OpenAI Codex, Claude Code, Hermes Agent & Antigravity · Full 5-Language Documentation (EN, FA, TR, AZ, AR) · MIT License.
+- **Evidence Artifact**: 15/15 passing unit test suites, 100% automated governance compliance, and live v0.1.0 release.
 
 ### 1. [AnswerPath-GEO](https://github.com/tmolavi/answerpath-geo)
 **Multimodal AI Query Discovery & Intent Stratification Engine**
@@ -116,6 +123,7 @@ Production-ready skills, workflow patterns, and token-optimized developer resour
 
 | Repository | Purpose & Technical Role | Target Agents | Coverage |
 | :--- | :--- | :---: | :---: |
+| [**`molavi-agentic-os`**](https://github.com/tmolavi/molavi-agentic-os) | **TM AI Agent Toolkit (Flagship)**: Modular, model-agnostic agent operating framework. 12 specialist agents (100/100 Bot-Ready), 15 skills, 5 teams, pure-Python TaskQueue, Permission-Slip approval tickets & Free-First router. | Antigravity · Codex · Claude Code · Hermes · CLI | v0.1.0 · 5 Languages · MIT |
 | [**`humanize-ai-copywriter`**](https://github.com/tmolavi/humanize-ai-copywriter) | Universal Agent Skill & CLI for Zero-Entropy, undetectable human copywriting (100% bypass of GPTZero/Turnitin), high-conversion sales, few-shot voice cloning & dual SEO/GEO citations. | Antigravity · Claude Code · Cursor · Codex · n8n | v1.0.0 · 5 Languages |
 | [**`scholar-provenance`**](https://github.com/tmolavi/scholar-provenance) | Portable AI Agent Skill transforming repositories, datasets, and benchmarks into traceable, peer-review-ready academic papers with automated academic distribution kits and zero citation fabrication. | Claude Code · Antigravity · Hermes · Codex · MCP | 17-Stage Pipeline · 13 Gates · v0.4.0 |
 | [**`hermes-meeting-intelligence`**](https://github.com/tmolavi/hermes-meeting-intelligence) | Open-source meeting intelligence skills for Hermes Agent: speaker-aware transcriptions, cross-meeting persistent memory, and real-time AI workflows. | Hermes Agent · Python · MCP | Open-Source Skills |
