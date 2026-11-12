@@ -124,6 +124,7 @@ Production-ready skills, workflow patterns, and token-optimized developer resour
 | Repository | Purpose & Technical Role | Target Agents | Coverage |
 | :--- | :--- | :---: | :---: |
 | [**`molavi-agentic-os`**](https://github.com/tmolavi/molavi-agentic-os) | **TM AI Agent Toolkit (Flagship)**: Modular, model-agnostic agent operating framework. 12 specialist agents (100/100 Bot-Ready), 15 skills, 5 teams, pure-Python TaskQueue, Permission-Slip approval tickets & Free-First router. | Antigravity · Codex · Claude Code · Hermes · CLI | v0.1.0 · 5 Languages · MIT |
+| [**`tm-second-brain`**](https://github.com/tmolavi/tm-second-brain) | **TM Second Brain & Persistent Memory**: Local-first, $0.00, pure-Python & Markdown memory layer with BM25 + wikilink graph retrieval, conflict/correction history, secret redaction, Obsidian starter vaults & MCP server. ([Guide](https://molavi.pro/notes/tm-second-brain-persistent-memory)) | Hermes · Antigravity · Codex · Claude Code · Obsidian | v0.1.0 · 5 Languages · MIT |
 | [**`humanize-ai-copywriter`**](https://github.com/tmolavi/humanize-ai-copywriter) | Universal Agent Skill & CLI for Zero-Entropy, undetectable human copywriting (100% bypass of GPTZero/Turnitin), high-conversion sales, few-shot voice cloning & dual SEO/GEO citations. | Antigravity · Claude Code · Cursor · Codex · n8n | v1.0.0 · 5 Languages |
 | [**`scholar-provenance`**](https://github.com/tmolavi/scholar-provenance) | Portable AI Agent Skill transforming repositories, datasets, and benchmarks into traceable, peer-review-ready academic papers with automated academic distribution kits and zero citation fabrication. | Claude Code · Antigravity · Hermes · Codex · MCP | 17-Stage Pipeline · 13 Gates · v0.4.0 |
 | [**`hermes-meeting-intelligence`**](https://github.com/tmolavi/hermes-meeting-intelligence) | Open-source meeting intelligence skills for Hermes Agent: speaker-aware transcriptions, cross-meeting persistent memory, and real-time AI workflows. | Hermes Agent · Python · MCP | Open-Source Skills |
@@ -186,7 +187,7 @@ Open for research initiatives, technical discussions, and architecture advisory 
 
 - **پایپ‌لاین دیده‌پذیری هوش مصنوعی و ترافیک خبری**: `news-traffic-engine` (فریم‌ورک خودکار سئو و GEO خبرگزاری‌ها با همکاری آژانس دیجیتال مارکتینگ اینتن)، `geo-scope` (بنچ‌مارک تجربی)، `answerpath-geo` (کشف پرسش‌ها)، `sage-audit` (موتور ارزیابی ۳ لایه)، `siteprobe` (ربات اصلاح خودکار کد) و `mcp-geo-server`.
 - **هوش مصنوعی سازمانی و اتصال ERP**: بستر متن‌باز `iranian-enterprise-ai-bridge` جهت اتصال امن و دترمینستیک نرم‌افزارهای سازمانی و کارخانجات به هوش مصنوعی مدیران ارشد با حفظ کامل حریم داده‌ها.
-- **زیرساخت ایجنت‌ها**: مهارت‌های تخصصی ایجنت برای Claude Code، Cursor، Codex و Antigravity (شامل `scholar-provenance` جهت تبدیل پژوهش و کد به مقالات علمی معتبر، `bale-bot-skills`، `n8n-agent-skills` و `mcp-agent-skills-hub`).
+- **زیرساخت ایجنت‌ها**: مهارت‌های تخصصی ایجنت برای Claude Code، Cursor، Codex و Antigravity (شامل `tm-second-brain` برای حافظه دائمی ۰ دلاری و مغز دوم، `scholar-provenance` جهت تبدیل پژوهش و کد به مقالات علمی معتبر، `bale-bot-skills`، `n8n-agent-skills` و `mcp-agent-skills-hub`).
 - **یادداشت‌ها و مقالات پژوهشی**: در [Molavi.pro فارسی](https://molavi.pro/fa) در دسترس است.
 
 </details>
@@ -199,7 +200,7 @@ Open for research initiatives, technical discussions, and architecture advisory 
 Üretken Arama Motoru Optimizasyonu (GEO), Cevap Motoru Optimizasyonu (AEO), yapay zekâ aracı altyapıları ve otomatik kod düzeltme sistemleri üzerine açık kaynaklı araçlar ve ampirik benchmarklar geliştiriyorum:
 
 - **Yapay Zekâ Görünürlük Yığını**: `geo-scope`, `answerpath-geo`, `sage-audit`, `siteprobe`, `mcp-geo-server`.
-- **Ajan Mühendisliği**: Cursor, Claude Code, Codex ve Antigravity için üretim odaklı ajan becerileri (`scholar-provenance` bilimsel makale üretim becerisi dahil).
+- **Ajan Mühendisliği**: `tm-second-brain` ($0.00 çevrimdışı kalıcı hafıza ve ikinci beyin), Cursor, Claude Code, Codex ve Antigravity için üretim odaklı ajan becerileri (`scholar-provenance` bilimsel makale üretim becerisi dahil).
 - **Araştırmalar**: [Molavi.pro Türkçe](https://molavi.pro/tr).
 
 </details>
@@ -212,7 +213,7 @@ Open for research initiatives, technical discussions, and architecture advisory 
 Süni intellekt axtarış sistemlərində görünürlük (GEO/AEO), avtonom agent infrastrukturları və kod təmiri sistemləri üzrə açıq mənbəli alətlər hazırlayıram:
 
 - **Süni İntellekt Görünürlük Şəbəkəsi**: `geo-scope`, `answerpath-geo`, `sage-audit`, `siteprobe`, `mcp-geo-server`.
-- **Agent Mühəndisliyi**: `scholar-provenance` (elmi məqalə və tədqiqat bacarığı), `bale-bot-skills`, `mcp-agent-skills-hub`.
+- **Agent Mühəndisliyi**: `tm-second-brain` ($0.00 oflayn davamlı yaddaş və ikinci beyin), `scholar-provenance` (elmi məqalə və tədqiqat bacarığı), `bale-bot-skills`, `mcp-agent-skills-hub`.
 - **Tədqiqat və Məqalələr**: [Molavi.pro Azərbaycan](https://molavi.pro/az).
 
 </details>
@@ -225,7 +226,7 @@ Süni intellekt axtarış sistemlərində görünürlük (GEO/AEO), avtonom agen
 أعمل على تطوير أنظمة مفتوحة المصدر واختبارات تجريبية قابلة لإعادة الإنتاج حول تحسين محركات الذكاء الاصطناعي (GEO)، وبنية الوكلاء الأذكياء (Agent Infrastructure)، والأدوات البرمجية الذكية:
 
 - **حزمة ظهور الذكاء الاصطناعي**: `geo-scope` و `answerpath-geo` و `sage-audit` و `siteprobe` و `mcp-geo-server`.
-- **بنية الوكلاء الأذكياء**: مهارات متقدمة للوكلاء الذاتيين (بما في ذلك `scholar-provenance` لإعداد الأوراق والبحوث الأكاديمية الموثقة).
+- **بنية الوكلاء الأذكياء**: `tm-second-brain` (ذاكرة دائمة وعقل ثانٍ مجاني يعمل دون إنترنت)، ومهارات متقدمة للوكلاء الذاتيين (بما في ذلك `scholar-provenance` لإعداد الأوراق والبحوث الأكاديمية الموثقة).
 - **الأبحاث والملاحظات**: متوفرة على [Molavi.pro العربية](https://molavi.pro/ar).
 
 </details>
