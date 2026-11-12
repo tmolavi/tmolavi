@@ -44,11 +44,12 @@ Crawl & Web Intelligence       Query & Intent Discovery       Empirical AI Measu
 
 ---
 
-### 🌟 Flagship: [TM AI Agent Toolkit (Molavi Agentic OS)](https://github.com/tmolavi/molavi-agentic-os)
-**An Open Ecosystem of Agents, Skills, Teams, Workflows & Tools**
-- **Role**: Modular, model-agnostic, zero-dependency AI agent framework. Provides 12 specialist agents (100/100 Bot-Ready validation score), 15 standardized `SKILL.md` skills, 5 multi-agent team topologies, and 5 canonical workflows.
-- **Core Technology**: Pure Python 3.10+ · Thread-Safe `TaskQueue` & DAG Runner (Zero Redis/Celery dependency) · Permission-Slip HMAC Human Approval Gatekeeper (`L2_HUMAN_APPROVAL`) · Foreman Anti-Hallucination Artifact Verification Gate ("No Guessing") · Local Durable SQLite Memory · Free-First Model Router (Ollama Llama 3.2, Mistral, Groq, Gemini Free Tier) · Cross-Platform Adapters for OpenAI Codex, Claude Code, Hermes Agent & Antigravity · Full 5-Language Documentation (EN, FA, TR, AZ, AR) · MIT License.
-- **Evidence Artifact**: 15/15 passing unit test suites, 100% automated governance compliance, and live v0.1.0 release.
+### 🌟 Flagship: [TM Molavi Agentic OS (`molavi-agentic-os`)](https://github.com/tmolavi/molavi-agentic-os)
+**An Open-Source Operating Ecosystem for Autonomous AI Agents, Skills, Teams, Workflows & Local Memory**
+- **Role**: Modular, model-agnostic, zero-dependency AI agent framework. Provides 12 specialist agents (100/100 Bot-Ready validation score), 24 standardized `SKILL.md` skills, 5 multi-agent team topologies, and canonical end-to-end workflows.
+- **Core Technology**: Pure Python 3.10+ (Zero Redis/Celery dependency) · PyPI: `pip install molavi-agentic-os` · Thread-Safe `TaskQueue` & DAG Runner · Permission-Slip HMAC Human Approval Gatekeeper (`L2_HUMAN_APPROVAL`) · Foreman Anti-Hallucination Artifact Verification Gate ("No Guessing") · Bumblebee-Inspired MCP Tool Security Auditor · Karpathy-Inspired Autoresearch Experiment Loop · Native [`tm-second-brain`](https://github.com/tmolavi/tm-second-brain) Obsidian/Markdown Memory Bridge · Free-First Model Router (Ollama Llama 3.2, Mistral, Groq, Gemini Free Tier) · Cross-Platform Adapters for Hermes Main, Hermes Personal Desktop, Antigravity IDE, OpenAI Codex & Claude Code · Full 5-Language Documentation (EN, FA, TR, AZ, AR) · MIT License.
+- **Evidence Artifact**: 21/21 passing unit test suites, 100% automated governance compliance, official PyPI packaging, and live v0.2.0 release.
+- **⭐ Call to Action**: *If you're exploring autonomous agents or local-first AI, [star the repository on GitHub](https://github.com/tmolavi/molavi-agentic-os) to support open-source development!*
 
 ### 1. [AnswerPath-GEO](https://github.com/tmolavi/answerpath-geo)
 **Multimodal AI Query Discovery & Intent Stratification Engine**
